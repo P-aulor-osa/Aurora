@@ -1,16 +1,16 @@
 @font-face {
     font-family: "LeagueSpartan-Bold";
-    src: url("fonts/LeagueSpartan-Bold.ttf");
+    src: url("LeagueSpartan-Bold.ttf");
 }
 
 @font-face {
     font-family: "BeVietnamPro";
-    src: url("fonts/BeVietnamPro-Regular.ttf");
+    src: url("BeVietnamPro-Regular.ttf");
 }
 
 @font-face {
     font-family: "BeVietnamPro-Bold";
-    src: url("fonts/BeVietnamPro-Bold.ttf");
+    src: url("BeVietnamPro-Bold.ttf");
 }
 
 * {
