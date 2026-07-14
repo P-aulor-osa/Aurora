@@ -1,188 +1,177 @@
 @font-face {
-  font-family: "LeagueSpartan-Bold";
-  src: url("LeagueSpartan-Bold.ttf");
+    font-family: "LeagueSpartan-Bold";
+    src: url("LeagueSpartan-Bold.ttf");
 }
 
 @font-face {
-  font-family: "BeVietnamPro";
-  src: url("BeVietnamPro-Regular.ttf");
+    font-family: "BeVietnamPro";
+    src: url("BeVietnamPro-Regular.ttf");
 }
 
 @font-face {
-  font-family: "BeVietnamPro-Bold";
-  src: url("BeVietnamPro-Bold.ttf");
+    font-family: "BeVietnamPro-Bold";
+    src: url("BeVietnamPro-Bold.ttf");
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body {
-  font-family: "BeVietnamPro", sans-serif;
-  background-color: #0d0d0d;
+body{
+    font-family: "BeVietnamPro", sans-serif;
+    background-color: rgb(30, 102, 150);
 
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
+
+
 
 header {
-  font-size: large;
-  position: relative;
-  background-color: #1a1a1a;
-  padding: 40px 30px;
-  text-align: center;
+    font-size: large;
+    position: relative;
+    background-color:rgb(13, 87, 116);
+    padding: 40px 30px;
+    text-align: center;
 }
 
 header h1 {
-  font-family: "LeagueSpartan-Bold", sans-serif;
-  color: #8b0000;
-  margin-bottom: 10px;
-  text-align: left;
+    font-family: "LeagueSpartan-Bold", sans-serif;
+    color: lightblue;
+    margin-bottom: 10px;
 }
 
 header h3 {
-  color: #8b0000;
-  padding: 15px;
-  font-size: medium;
-  font-style: italic;
-  text-align: left;
+    color: lightblue;
+    padding: 15px;
+    font-size: medium;
+    font-style: italic;
 }
 
 nav {
-  text-align: center;
-  top: 30px;
-  right: 30px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
 }
 
 nav ul {
-  display: flex;
-  list-style: none;
-  gap: 10px;
-  margin: 0;
-  padding: 0;
-  font-size: medium;
-  text-align: center;
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    font-size: medium;
 }
 
 nav a {
-  font-family: "BeVietnamPro", sans-serif;
-  color: #8b0000;
-  text-decoration: none;
-  padding: 8px 12px;
-  border-radius: 6px;
+    font-family: "BeVietnamPro", sans-serif;
+    color: lightblue;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 6px;
 }
 
 nav a:hover {
-  background-color: #b90000;
-  font-family: "BeVietnamPro-Bold";
+    background-color: rgb(13, 87, 116);
+    font-family: "BeVietnamPro-Bold";
 }
 
 form {
-  background-color: #ff0000;
-  border: 2px solid rgb(0, 0, 0);
-  border-radius: 10px;
-  padding: 20px;
-  text-align: left;
-  font-size: larger;
+    background-color:rgb(13, 87, 116);
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    font-size:larger;
+
 }
 
-h1,
-h2,
-h3,
-h4 {
-  font-family: "LeagueSpartan-Bold", sans-serif;
-  color: #c1121f;
+h1, h2, h3, h4 {
+    font-family: "LeagueSpartan-Bold", sans-serif;
+    color: lightblue;
 }
 
-main {
-  flex: 1;
+main{
+    flex: 1;
 }
 
 main p {
-  font-size: large;
+    font-size: large
 }
 
-.banner p {
-  font-size: large;
+.banner p{
+    font-size: large
 }
 
-.aviso {
-  font-size: small;
+.aviso{
+    font-size: small
 }
 
 .produtosdestq {
-  display: flex;
-  justify-content: center;
-  gap: 25px;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
 }
 
 .catalogo {
-  display: flex;
-  justify-content: center;
-  gap: 25px;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
 }
 
 .card {
-  max-width: 800px;
-  max-height: 800px;
-  background-color: #680000;
-  border: 2px solid rgb(0, 0, 0);
-  border-radius: 10px;
-  padding: 20px;
-  text-align: center;
+    max-width: 800px;
+    max-height: 800px;
+    background-color:rgb(13, 87, 116);
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
 }
 
 section {
-  padding: 30px;
-  color: #c1121f;
+    padding: 30px;
 }
 
 section h2 {
-  font-size: 2rem;
-  border-bottom: 2px solid rgb(0, 0, 0);
-  padding-bottom: 10px;
-  margin-bottom: 25px;
+    font-size: 2rem;
+    border-bottom: 2px solid lightblue;
+    padding-bottom: 10px;
+    margin-bottom: 25px; 
 }
 
 img {
-  width: 300px;
-  height: 400px;
-  object-fit: cover;
-  border-radius: 8px;
-  margin: 20px auto;
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 20px auto;
 }
 
 .button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #b90000;
-  color: #f2f2f2;
-  border-radius: 8px;
-  text-decoration: none;
-  cursor: pointer;
+    display:inline-block;
+    padding: 10px 20px;
+    background-color:rgb(13, 87, 116);
+    color:lightblue;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .button:hover {
-  font-family: "BeVietnamPro-Bold";
-  background-color: #dd0000;
+    font-family: "BeVietnamPro-Bold";
+    background-color:rgb(13, 87, 116);
 }
 
 footer {
-  background-color: #1a1a1a;
-  color: #c1121f;
-  padding: 20px;
-  margin-top: 20px;
-  text-align: center;
-}
-main p {
-  color: #c1121f;
-}
-img#paulao{
-    height: 2000px;
-    width: 2000px;
+    background-color: rgb(35, 35, 35);
+    color:white;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
 }
