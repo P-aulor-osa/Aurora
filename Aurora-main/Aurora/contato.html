@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Aurora - Contato</title>
+      <link rel="stylesheet" href="style.css">
+</head>
+
+<!--Header e menu de navegação, visto em todas as páginas-->
+
+<body>
+     <header>
+        <h1>Biblioteca Aurora</h1>
+        <h3>Onde cada página revela um novo horizonte.</h3>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+     <main>
+
+<!--Formulário de contato, essencialmente um enfeite extra-->
+
+        <section>
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para dúvidas, sugestões ou informações sobre nossos produtos e serviços. Estamos à disposição para atendê-lo da melhor forma possível.</p>
+            <form action="enviar-contato" method="post">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="telefone">Telefone:</label><br>
+                <input type="tel" id="telefone" name="telefone"><br>
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" required></textarea><br>
+                <label for="avaliacao">Avaliação:</label><br>
+                <input type="radio" id="avaliacao" name="avaliacao" value="1"> ★☆☆☆☆<br>
+                <input type="radio" id="avaliacao" name="avaliacao" value="2"> ★★☆☆☆<br>
+                <input type="radio" id="avaliacao" name="avaliacao" value="3"> ★★★☆☆<br>
+                <input type="radio" id="avaliacao" name="avaliacao" value="4"> ★★★★☆<br>
+                <input type="radio" id="avaliacao" name="avaliacao" value="5"> ★★★★★<br>
+                <button type="submit">Enviar</button>
+
+            </form>
+    
+        </section>
+     </main>
+
+<!--Footer, visto em todas as página-->
+
+     <footer>
+        <p>&copy;Paulo Donizete</p>
+     <time datetime="2026-07-09">09 de Julho de 2026</time>
+    </footer>
+</body>
+</html>
